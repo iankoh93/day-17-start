@@ -1,3 +1,7 @@
+# To generate new quiz questions just copy and paste the below URL and assign that to question_data
+# https://opentdb.com/api.php?amount=10&type=boolean
+
+
 # question_data = [
 #     {"text": "A slug's blood is green.", "answer": "True"},
 #     {"text": "The loudest animal is the African Elephant.", "answer": "False"},
@@ -73,109 +77,24 @@
 #      "correct_answer": "True",
 #      "incorrect_answers": ["False"]}]
 
-question_data = {
-  "response_code": 0,
-  "results": [
-    {
-      "category": "Entertainment: Music",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "Soulja Boy&#039;s &#039;Crank That&#039; won a Grammy for Best Rap Song in 2007.",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "Vatican City is a country.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
-      "category": "Art",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "Leonardo da Vinci&#039;s Mona Lisa does not have eyebrows.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
-      "category": "Entertainment: Video Games",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "In &quot;Mario Kart 64&quot;, Waluigi is a playable character.",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "The word &quot;news&quot; originates from the first letters of the 4 main directions on a compass (North, East, West, South).",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "Vehicles",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "The full English name of the car manufacturer BMW is Bavarian Motor Works",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
-      "category": "Geography",
-      "type": "boolean",
-      "difficulty": "easy",
-      "question": "St. Louis is the capital of the US State Missouri.",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "Entertainment: Television",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "In &quot;Star Trek: The Next Generation&quot;, Data is the only android in existence.",
-      "correct_answer": "False",
-      "incorrect_answers": [
-        "True"
-      ]
-    },
-    {
-      "category": "Mythology",
-      "type": "boolean",
-      "difficulty": "hard",
-      "question": "Janus was the Roman god of doorways and passageways.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },
-    {
-      "category": "Science & Nature",
-      "type": "boolean",
-      "difficulty": "medium",
-      "question": "&quot;Tachycardia&quot; or &quot;Tachyarrhythmia&quot; refers to a resting heart-rate near or over 100 BPM.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    }
-  ]
-}
-
+question_data = {"response_code": 0, "results": [
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy", "question": "&quot;Undertale&quot; is an RPG created by Toby Fox and released in 2015.",
+     "correct_answer": "True", "incorrect_answers": ["False"]}, {"category": "Entertainment: Books", "type": "boolean", "difficulty": "easy",
+                                                                 "question": "The &quot;Berenstein Bears&quot; is the correct spelling of the educational children&#039;s book series&#039; name.",
+                                                                 "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "In &quot;Portal 2&quot;, Cave Johnson started out Aperture Science as a shower curtain company.", "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Geography", "type": "boolean", "difficulty": "medium", "question": "You could walk from Norway to North Korea while only passing through Russia.",
+     "correct_answer": "True", "incorrect_answers": ["False"]}, {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
+                                                                 "question": "The NVidia GTX 1080 gets its name because it can only render at a 1920x1080 screen resolution.",
+                                                                 "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Science: Mathematics", "type": "boolean", "difficulty": "medium", "question": "Zero factorial is equal to zero. ", "correct_answer": "False",
+     "incorrect_answers": ["True"]},
+    {"category": "Science: Mathematics", "type": "boolean", "difficulty": "medium", "question": "A &#039;Millinillion&#039; is a real number.", "correct_answer": "True",
+     "incorrect_answers": ["False"]}, {"category": "Politics", "type": "boolean", "difficulty": "hard",
+                                       "question": "George Clinton, Vice President of the United States (1805-1812), is an ancestor of President Bill Clinton.",
+                                       "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "General Knowledge", "type": "boolean", "difficulty": "medium", "question": "&quot;Santa Claus&quot; is a variety of melon.", "correct_answer": "True",
+     "incorrect_answers": ["False"]},
+    {"category": "History", "type": "boolean", "difficulty": "hard", "question": "The man that shot Alexander Hamilton was named Aaron Burr.", "correct_answer": "True",
+     "incorrect_answers": ["False"]}]}
