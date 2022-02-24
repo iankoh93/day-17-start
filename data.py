@@ -77,24 +77,4 @@
 #      "correct_answer": "True",
 #      "incorrect_answers": ["False"]}]
 
-question_data = {"response_code": 0, "results": [
-    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy", "question": "&quot;Undertale&quot; is an RPG created by Toby Fox and released in 2015.",
-     "correct_answer": "True", "incorrect_answers": ["False"]}, {"category": "Entertainment: Books", "type": "boolean", "difficulty": "easy",
-                                                                 "question": "The &quot;Berenstein Bears&quot; is the correct spelling of the educational children&#039;s book series&#039; name.",
-                                                                 "correct_answer": "False", "incorrect_answers": ["True"]},
-    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
-     "question": "In &quot;Portal 2&quot;, Cave Johnson started out Aperture Science as a shower curtain company.", "correct_answer": "True", "incorrect_answers": ["False"]},
-    {"category": "Geography", "type": "boolean", "difficulty": "medium", "question": "You could walk from Norway to North Korea while only passing through Russia.",
-     "correct_answer": "True", "incorrect_answers": ["False"]}, {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
-                                                                 "question": "The NVidia GTX 1080 gets its name because it can only render at a 1920x1080 screen resolution.",
-                                                                 "correct_answer": "False", "incorrect_answers": ["True"]},
-    {"category": "Science: Mathematics", "type": "boolean", "difficulty": "medium", "question": "Zero factorial is equal to zero. ", "correct_answer": "False",
-     "incorrect_answers": ["True"]},
-    {"category": "Science: Mathematics", "type": "boolean", "difficulty": "medium", "question": "A &#039;Millinillion&#039; is a real number.", "correct_answer": "True",
-     "incorrect_answers": ["False"]}, {"category": "Politics", "type": "boolean", "difficulty": "hard",
-                                       "question": "George Clinton, Vice President of the United States (1805-1812), is an ancestor of President Bill Clinton.",
-                                       "correct_answer": "False", "incorrect_answers": ["True"]},
-    {"category": "General Knowledge", "type": "boolean", "difficulty": "medium", "question": "&quot;Santa Claus&quot; is a variety of melon.", "correct_answer": "True",
-     "incorrect_answers": ["False"]},
-    {"category": "History", "type": "boolean", "difficulty": "hard", "question": "The man that shot Alexander Hamilton was named Aaron Burr.", "correct_answer": "True",
-     "incorrect_answers": ["False"]}]}
+question_data = {"response_code":0,"results":[{"category":"Entertainment: Video Games","type":"boolean","difficulty":"medium","question":"DragonForce&#039;s &#039;Through the Fire and Flames&#039; is widely considered to be the hardest song in the Guitar Hero series.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Entertainment: Music","type":"boolean","difficulty":"medium","question":"The cover of The Beatles album &quot;Abbey Road&quot; featured a Volkswagen Beetle in the background.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Science: Computers","type":"boolean","difficulty":"easy","question":"Linus Torvalds created Linux and Git.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Science & Nature","type":"boolean","difficulty":"medium","question":"Shrimp can swim backwards.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Entertainment: Video Games","type":"boolean","difficulty":"easy","question":"In Kingdom Hearts the Paopu fruit is said to intertwine the destinies for two people forever.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Science: Computers","type":"boolean","difficulty":"easy","question":"The NVidia GTX 1080 gets its name because it can only render at a 1920x1080 screen resolution.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Entertainment: Music","type":"boolean","difficulty":"medium","question":"3 members of 2 Live Crew were arrested for playing songs from their album, As Nasty As They Wanna Be, live.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Entertainment: Music","type":"boolean","difficulty":"easy","question":"Stevie Wonder&#039;s real name is Stevland Hardaway Morris.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"You can tell the age of a ladybird by counting the spots on his back.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Entertainment: Japanese Anime & Manga","type":"boolean","difficulty":"medium","question":"In Full Metal Panic!, Whispered are those who are capable of creating Black Technology.","correct_answer":"True","incorrect_answers":["False"]}]}
